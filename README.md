@@ -18,7 +18,7 @@ Die Wirtschaftsdaten (data/economic/) sind von DeStatis (Statistisches Bundesamt
 Die Meldezahlen vom Robert Koch Institut werden per API über die [Nationale Plattform für geographische Daten (NPGEO-DE)](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0?orderBy=Meldedatum) abgefragt.
 
 ## Haftungsausschluss
-Wir stellen den Code zur Weiterentwicklung zur Verfügung. Aktuell können noch keine Prognosen getroffen werden. Des Weiteren ist zu beachten, dass auch die fertigen statistischen Modelle von der tatsächlichen Entwicklung abweichen können.
+Wir stellen den Code zur Weiterentwicklung zur Verfügung. Aktuell können noch keine Prognosen getroffen werden. Des Weiteren ist zu beachten, dass auch die Ergebnisse des fertigen statistischen Modells von der tatsächlichen Entwicklung abweichen können.
 
 ---
 
@@ -27,7 +27,7 @@ View it on [Devpost](https://devpost.com/software/1_047_b_wirtschaftliche_auswir
 
 Geospatial-temporal modelling of COVID-19 and its impact on population and economy.
 
-Currently, the dashboard is just a prototyp, which was created using Jupyter, Vuetify and Voila. In the next days, we have to complete and evaluate the models as well as integrating them into the dashboard.
+Currently, the dashboard is just a prototype, which was created using Jupyter, Vuetify and Voila. In the next days, we have to complete and evaluate the models as well as integrating them into the dashboard.
 
 To run the Dashboard install the dependencies from conda_environment.yml and run:
 
@@ -41,4 +41,4 @@ The economic data (data/economic/) is from DeStatis (German Federal Statistical 
 The reporting figures from the Robert Koch Institute are queried via API through the [National Platform for Geographic Data (NPGEO-DE)](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0?orderBy=Meldedatum).
 
 ## Disclaimer
-We provide the code (as it is) for further development. At the moment no forecasts can be made. Furthermore, it should be noted that even the finished statistical models may deviate from the actual development.
+We provide the code (as it is) for further development. At the moment no forecasts can be made. Furthermore, it should be noted that even the results of the finished statistical model may deviate from the actual development.
