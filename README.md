@@ -13,6 +13,9 @@ Um das Dashboard zu starten, müssen die Dependencies aus conda_environment.yml 
 ## Quellen
 Das Infektionsmodell basiert auf dem Bayesian spatio-temporal interaction model: [GitHub](https://github.com/ostojanovic/BSTIM), [Paper](https://www.biorxiv.org/content/10.1101/617795v1)
 
+Die Wirtschaftsdaten (data/economic/) sind von DeStatis (Statistisches Bundesamt).
+
+Die Meldezahlen vom Robert Koch Institut werden per API über die [Nationale Plattform für geographische Daten (NPGEO-DE)](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0?orderBy=Meldedatum) abgefragt.
 
 ## Haftungsausschluss
 Wir stellen den Code zur Weiterentwicklung zur Verfügung. Aktuell können noch keine Prognosen getroffen werden. Des Weiteren ist zu beachten, dass auch die fertigen statistischen Modelle von der tatsächlichen Entwicklung abweichen können.
@@ -32,6 +35,10 @@ To run the Dashboard install the dependencies from conda_environment.yml and run
     
 ## References
 The infection model is based on the Bayesian spatio-temporal interaction model: [GitHub](https://github.com/ostojanovic/BSTIM), [Paper](https://www.biorxiv.org/content/10.1101/617795v1)
+
+The economic data (data/economic/) is from DeStatis (German Federal Statistical Office).
+
+The reporting figures from the Robert Koch Institute are queried via API through the [National Platform for Geographic Data (NPGEO-DE)](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0?orderBy=Meldedatum).
 
 ## Disclaimer
 We provide the code (as it is) for further development. At the moment no forecasts can be made. Furthermore, it should be noted that even the finished statistical models may deviate from the actual development.
